@@ -1,0 +1,275 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+    width: 1200px;
+    margin-top: 100px;
+  }
+  
+  .left-panel,
+  .right-panel {
+    background-color: #0f0f0f;
+    padding: 20px;
+    border-radius: 8px;
+    
+  }
+  
+  .create-workout-template,
+  .choose-template,
+  .current-users {
+    margin-bottom: 20px;
+  }
+  
+
+ 
+  .left-panel-button
+  {
+    background-color: #000000;
+    color: #ffffff;
+    border:double 1px #46ffbc;
+    padding: 20px 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .left-panel-button:hover
+  {
+    background-color: #46ffbc;
+    color: #000000;
+    font-weight: bold;
+    margin:5px;
+  }
+  .create-workout-template input,
+  .choose-template input {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .current-users table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .current-users th,
+  .current-users td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .current-users th {
+    background-color: #000000;
+    border-radius: 5px;
+  }
+  
+  .current-users tr:nth-child(even) {
+    background-color: #2b2b2b;
+  }
+  .current-users tr:nth-child(even):hover {
+    background-color: #46ffbc;
+    padding: 110px 0;
+    transition: 0.3s;
+  }
+  .current-users tr:nth-child(even).selected {
+    background-color: #e3ffa8;
+  }
+  
+  .send-template,
+  .x-button {
+    background-color: #2b2b2b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .send-template {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: linear-gradient(to right, #000000 44%, #e3ffa8  51%, #000000  100%);
+    transition: 0.3s;
+    background-size: 600% auto;
+    border-bottom:double 1px #e3ffa8;
+  }
+  .send-template:hover
+  {
+    background-position: right center; 
+    color: #ffffff;
+    text-decoration: none;
+  
+  }
+  .send-template:active
+  {
+    background-color: #e3ffa8;
+    background-image: none;
+  }
+  .x-button {
+    background-image: linear-gradient(to right, #000000 44%, #EA384D  51%, #000000  100%);  
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.2s;
+    background-size:500% auto;
+    color: white;            
+    border-bottom:1px solid #EA384D;
+  }
+  .poruka
+  {
+    padding: 20px;
+    transition: 0.5s;
+    color: #e3ffa8;
+  }
+     .x-button:hover
+     {
+      background-position: right ; 
+      color: #fff;
+      text-decoration: none;
+     }    
+.x-button:active
+{
+  background-color: #EA384D;
+  background-image: none;
+}
+
+           
+    
+   
+  .thingToSelect
+  {
+    padding: 20px;
+    background-color: #2b2b2b;
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.3em;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+  .thingToSelect:hover
+  {
+    background-color: #46ffbc;
+    color: #1a1a1a;
+    padding: 10px;
+    transition: 0.2s;
+  }
+  .selected
+  {
+    background-color: #e3ffa8;
+    color: #000000;
+    
+  }
+  .things
+  {
+    max-width: 620px;
+    margin: 0 auto;
+    height:450px;
+    overflow-y: scroll;
+  }
+  .headers
+  {
+    margin: 0 auto;
+    max-width: 620px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 580px;
+    padding: 20px;
+  }
+  .inputss
+  {
+    padding: 5px;
+    height: 50px;
+    vertical-align: middle;
+    background-color: #2b2b2b;
+    border: #1a1a1a solid 1px;
+  }
+  .roww
+  {
+    min-width: 200px;
+    width:auto;
+    padding: 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #0f0f0f;
+    cursor:pointer;
+    vertical-align:middle;
+    text-align: center;
+    border:1px solid #2b2b2b;
+    border-bottom: 1px solid #46ffbc;
+  }
+  .roww:hover
+  {
+    background-color: #46ffbc;
+    color:black;
+    
+  }
+  .roww.selected
+  {
+    background-color: #e3ffa8;
+    color: #000000;
+    font-weight: bold;
+    min-width:200px;
+  }
+  .buttons
+  {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  .template-name
+  {
+    margin: 0 auto;
+    padding: 10px;
+    border:none;
+    border-bottom:1px solid #46ffbc;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .add-button
+  {
+    background-color: #000000;
+    color: #ffffff;
+    
+  }
+  .add-button:hover
+  {
+    
+    color: #ffffff;
+    border-bottom: 2px solid #46ffbc;
+    transition: 0.05s;
+  }
+  .day-view
+  {
+    margin-top: 20px;
+  }
+  .vjezbe
+  {
+   /* border:1px solid #46ffbc;*/
+  }
+  .exercise-item{
+   border-radius: 0; 
+  
+    background-color: #0f0f0f;
+    margin: 10px;
+    border-top:1px solid #46ffbc;
+  }
+  .exercise-name
+  {
+    color: #ffffff;
+    font-weight: bold;
+   
+  }

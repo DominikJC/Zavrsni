@@ -1,0 +1,125 @@
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* height: 100vh;*/
+}
+
+.tracker-box {
+    background-color: #0f0f0f;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 800px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #a0a0a0;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #0f0f0f;
+   /* border-left: 2px solid #46ffbc;
+    border-right: 2px solid #46ffbc;*/
+    height:auto;
+    vertical-align:middle;
+    border:1px solid #b3b3b3;
+    cursor: pointer;
+}
+/*
+.row:nth-child(even) {
+    background-color: #2c2c2c;
+}
+*/
+.highlight-yellow {
+    background-color: #9acd32;
+    color: #000;
+}
+
+.highlight-green {
+    background-color: #00fa9a;
+    color: #000;
+}
+
+.add-button {
+    
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    color: #ffffff;
+  border-bottom: 2px solid #46ffbc;
+  background-color: #000000;
+}
+.add-button:hover
+{
+  
+    background-color: #46ffbc;
+    color: #000;
+  transition: 0.05s;
+}
+.custom-exercise {
+    color: #a0a0a0;
+    text-align: center;
+    margin-top: 10px;
+}
+.row:hover
+{
+  background-color: #46ffbc;
+  color:black;
+}
+.row:active
+{
+    background-color: #e3ffa8;
+    color:black;
+}
+.activated
+{
+    background-color: #e3ffa8;
+}
+.row.selected {
+    background-color: #e3ffa8; /* or any color you prefer */
+  }
+  .row.selected:hover {
+    background-color: #46ffbc; /* or any color you prefer */
+  }
+.selected{background-color: #00fa9a;}
+.ex-container
+{
+    width:auto;
+    overflow-y: scroll;
+    height: 350px;
+}
+.deskripcija:hover
+{
+   z-index: 3;
+   background-color: #000;
+   color: white;
+   border-radius: 2px;
+}

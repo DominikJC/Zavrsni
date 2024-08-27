@@ -1,0 +1,45 @@
+.dashboard
+{
+    text-align: left;
+    margin-left: 125px;
+}
+.dashboard-reg
+{
+    text-align: left;
+    margin-left: 50px;
+}
+.changeRoles
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    vertical-align: middle;
+}
+.h1
+{
+    color: rgb(17, 17, 17);
+}
+.exercises
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.customExercises
+{
+    display: flex;
+    flex-direction: column;
+}
+
+select
+{
+    padding: 15px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.dashboard-page 
+{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,48 @@
+.createButton
+{
+    border: none;
+    border-bottom:1px solid #e3ffa8;
+    background-color: black;
+    color: white;
+    width: auto;
+    padding: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.createButton:hover
+{
+    background-color: #e3ffa8;
+    color: black;
+}
+.back-button
+{
+    border: none;
+    border-bottom:1px solid #46ffbc;
+    background-color: black;
+    color: white;
+    width: auto;
+    padding: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.back-button:hover
+{
+    background-color: #46ffbc;
+    color: black;
+}
+.inputt
+{
+    background-color: #0f0f0f;
+    border: 1px solid #2b2b2b;
+    color: white;
+}
+textarea
+{
+    background-color: #0f0f0f;
+    border: 1px solid #2b2b2b;
+    color: white;
+}
